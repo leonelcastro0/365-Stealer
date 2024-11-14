@@ -71,6 +71,7 @@
       // List of IP's to allow access to the script (only used if $enableIpWhitelist is true)
       public $ipWhitelist = array(
          '127.0.0.1',
+         '172.17.0.1',
          '0.0.0.0/0'
         
       );
