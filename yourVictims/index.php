@@ -33,7 +33,7 @@
       public $stealerPath = "../365-Stealer.py";
        
      // python or python3
-      public $python3 = "python3";
+      public $python3 = "/usr/bin/python3";
        
       // The top level directory where this script is located, or alternatively one of it's sub-directories
       public $startDirectory = '.';
